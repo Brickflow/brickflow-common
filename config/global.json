@@ -1,0 +1,140 @@
+{
+  "ALLOW_ORIGINS": ["brickflow.com", "localhost", "0.0.0.0"],
+
+  "DEFAULT_META_DESCRIPTION": "We analyze your Tumblr blog and automatically give you the best photos that fit your style. You choose the ones you like and publish with a click.",
+
+  "TRIM_FEED_LENGTH": 200,
+
+  "EXTERNAL_PROVIDER_SEARCH_TIMEOUT": 5000,
+  "TUMBLR_GET_BLOG_POSTS_TIMEOUT": 60000,
+  "TUMBLR_RECOMMENDATION_TAGGED_TIMEOUT": 5000,
+
+  "TUMBLR_RECOMMENDATION_SEARCH_TIMEOUT": 1000000,
+  "TUMBLR_RECOMMENDATION_BLOGS_LIMIT": 4,
+  "TUMBLR_RECOMMENDATION_POSTS_LIMIT": 20,
+  "TUMBLR_CLIENT_POSTS_LIMIT": 20,
+  "TUMBLR_HASHTAGS_LIMIT": 12,
+  "TUMBLR_HASHTAG_SEARCH_POSTS_LIMIT": 80,
+
+  "TUMBLR_RETRIEVE_POST_ID_DELAY": 5000,
+  "TUMBLR_RECOMMENDATION_FOLLOWING_SCORE_INCREMENT": 10,
+
+  "SOLR_BLOG_RECOMMEND_COUNT": 50,
+
+  "AUTO_FOLLOWBACK_FOLLOWERS_QUERY_LIMIT": 100,
+  "AUTO_FOLLOWBACK_FOLLOWERS_QUERY_DELAY": 5000,
+
+  "HASHTAG_SEARCH_SCORE_INCREMENT": 10,
+
+  "SCHEDULE_CACHE_UPDATE_THREAD_LIMIT": 50,
+  "SCHEDULE_CACHE_UPDATE_POST_EXPIRATION_HOURS": 24,
+  "SCHEDULE_POST_NOTECOUNT_UPDATE_THREAD_LIMIT": 20,
+
+  "RYAN_CONTENT_EXPERIMENT_BRICKS": [
+    {
+      "_id": "tu101160641905",
+      "media": "http://rajenur.tumblr.com/post/101160641905",
+      "provider": "tumblr",
+      "url": "http://33.media.tumblr.com/e18db1cd3eafaccde0f84a3d93d08252/tumblr_ne5ckk8kVX1tbgtgno1_500.gif",
+      "creatorName": "rajenur",
+      "creatorProfilePicture": "http://api.tumblr.com/v2/blog/rajenur.tumblr.com/avatar/48",
+      "text": "",
+      "type": "image",
+      "thumbnail": "http://33.media.tumblr.com/e18db1cd3eafaccde0f84a3d93d08252/tumblr_ne5ckk8kVX1tbgtgno1_500.gif",
+      "likeCount": "2",
+      "reblogKey": "k0hwyUSP",
+      "coordinates": [],
+      "hashtags": [],
+      "__v": 0
+    }
+  ],
+
+  "BANNED_HASHTAGS": [
+    "jailbait",
+    "jailbate",
+    "jail bait",
+    "jailbait selfie",
+    "jailbait nude",
+    "jailbait teen",
+    "nude jailbait",
+    "jailbait slut",
+    "preteen nude",
+    "sexy jailbait",
+    "jailbait ass",
+    "jailbait pussy",
+    "jailbait upskirt",
+    "daughter incest",
+    "jailbait boobs",
+    "jailbait girls",
+    "jailbait sexy",
+    "preteen porn",
+    "preteen slut",
+    "beach jailbait",
+    "beautiful jailbait",
+    "daughter cincest",
+    "facebook jailbait",
+    "horny jailbait",
+    "jail-bait",
+    "jailbait at mirror",
+    "jailbait bikini",
+    "jailbait butt",
+    "jailbait down blouse",
+    "jailbait facbook",
+    "jailbait from facebook",
+    "jailbait from twitter",
+    "jailbait fuck",
+    "jailbait gone wild",
+    "jailbait incest",
+    "jailbait mirror",
+    "jailbait naked",
+    "jailbait nice timming",
+    "jailbait non-nude",
+    "jailbait nonnude",
+    "jailbait party",
+    "jailbait pics",
+    "jailbait pictures",
+    "jailbait selfies",
+    "jailbait simi nude",
+    "jailbait wardrobe malfunction",
+    "jailbait young",
+    "jailbaitfeet"
+  ],
+
+  "PROVIDER_LIMITS": {
+    "giphy": 0.78,
+    "instagram": 0.58,
+    "tumblr": 0.75,
+    "twitter": 0.51,
+    "vine": 0.30
+  },
+  "DESIRED_FEED_LENGTH": 80,
+
+  "TUMBLR_BLOGS_CACHE_DELAY": 20000,
+  "TUMBLR_HASHTAGS_CACHE_DELAY": 40000,
+
+  "ACTIVE_USER_SHARE_HOURS": 12,
+
+  "LAST_SEEN_TRESHOLD_HOURS": 8,
+
+  "REWARD_MAX_STAR_COUNT": 3,
+  "REWARD_TEXTS": [
+    "Congrats on your first posts. Keep on to unlock a feature.", 
+    "You’re almost there. Go on filling your blog with awesome content.",
+    "Last star filling"
+  ],
+
+  "BRICK_RESTRICTIONS": {
+    "minWidth": 200,
+    "minHeight": 200,
+    "landscapeAspectRatioLimit": 5,
+    "portraitAspectRatioLimit": 5
+  },
+  "LOGSTASH_PORT": 28777,
+  "LOGSTASH_APP_NAME": "brickflow_node",
+
+  "SES_KEY": "AKIAI62O62NFHOU3QINA",
+  "SES_SECRET": "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",
+  "EMAIL_FROM": "Brickflow <info@brickflow.com>",
+
+  "BLOG_FEED_FALLBACK_MAX_LENGTH": 50
+}

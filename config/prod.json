@@ -1,0 +1,54 @@
+{
+  "RABBITMQ_URL": "url",
+  "MYSQL_URL": "url",
+  "HOST": "brickflow.com",
+  "PORT": 80,
+  "NODE_PORT": 8080,
+  "DEBUG": false,
+  "HAS_MIXPANEL": false,
+  "MIXPANEL_TOKEN": "token",
+  "HAS_GA": true,
+  "GA_ID": "id",
+  "private": {
+    "dbaccess": "access",
+    "password": "password",
+    "NEW_RELIC_APP_KEY": "key",
+    "GIPHY_APP_KEY": "key",
+    "TUMBLR_APP_KEY": "key",
+    "TUMBLR_APP_SECRET": "secret",
+    "FACEBOOK_APP_ID": "id",
+    "FACEBOOK_APP_SECRET": "secret",
+    "FACEBOOK_CALLBACK": "http://brickflow.com/auth/facebook/callback",
+    "TWITTER_KEY": "key",
+    "TWITTER_SECRET": "secret",
+    "TWITTER_ACCESS_TOKEN": "token",
+    "TWITTER_ACCESS_TOKEN_SECRET": "secret",
+    "INSTAGRAM_CLIENT_ID": "id",
+    "INSTAGRAM_SECRET": "secret",
+    "RABBITMQ_URL": "url",
+    "RABBITMQ_CREDENTIALS": {
+      "host": "172.30.1.53",
+      "login": "brickflow",
+      "password": "password"
+    },
+    "SOLR_CONFIG": {
+      "host": "reptile.brickflow.com",
+      "port": 8080
+    },
+    "SOLR_CREDENTIALS": {
+      "username": "brickflow",
+      "password": "password"
+    },
+    "INSTAGRAM_ACCESS_TOKEN": "token",
+    "VINE_KEY": "token",
+    "VINE_USERID": 1007016593449996288,
+    "VINE_USERNAME": "David Judik",
+    "VINE_EMAIL": "judik.david@gmail.com",
+    "VINE_PASSWORD": "password",
+    "AWS_ACCESS_KEY_ID": "key",
+    "AWS_SECRET_ACCESS_KEY": "secret",
+    "LOGSTASH_HOST": "172.30.1.144"
+  },
+  "LOGSTASH_PORT": 28777,
+  "LOGSTASH_APP_NAME": "brickflow_node"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "brickflow-common",
+  "version": "1.1.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ifroz <ifrozen@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "amqp": "^0.2.0",
+    "amqp-rpc": "git://github.com/ifroz/node-amqp-rpc.git",
+    "async": "^0.9.0",
+    "async-timeout": "^1.0.2",
+    "brickflow-logger": "^0.2.2",
+    "brickflow-recommend-client": "^1.0.3",
+    "es6-shim": "^0.21.1",
+    "fflip": "^2.0.0-alpha",
+    "instagram-node-lib": "^0.1.1",
+    "lodash": "^2.4.1",
+    "moment": "^2.8.3",
+    "mongoose": "^3.8.18",
+    "mongoose-createdmodified": "0.0.2",
+    "mongoose-findorcreate": "^0.1.2",
+    "mysql": "^2.5.3",
+    "nconf": "^0.6.9",
+    "node-rest-client": "^1.4.1",
+    "orm": "^2.1.19",
+    "q-orm": "0.0.1",
+    "request": "^2.47.0",
+    "tumblr-pool.js": "0.0.4",
+    "tumblr-rpc": "0.0.7",
+    "twit": "^1.1.18",
+    "vineapple": "git://github.com/brickflow/vineapple.git"
+  }
+}

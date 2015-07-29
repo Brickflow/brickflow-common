@@ -1,0 +1,6 @@
+node_modules
+config/local.json
+atlassian-ide-plugin.xml
+.idea
+dev.js
+log/
